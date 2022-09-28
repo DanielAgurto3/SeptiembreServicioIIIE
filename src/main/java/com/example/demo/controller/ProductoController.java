@@ -12,14 +12,13 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.example.demo.model.Producto;
-import com.example.demo.repository.ProductoRepository;
 import com.example.demo.service.ProductoService;
 
 @RestController
 @RequestMapping("/producto/v1")
 public class ProductoController {
 	
-	//jjjhj
+	
 	
 	@Autowired
 	private ProductoService service;
